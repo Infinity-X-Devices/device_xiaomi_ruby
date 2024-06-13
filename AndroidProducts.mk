@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ruby.mk
+    $(LOCAL_DIR)/infinity_ruby.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ruby-ap1a-user \
-    lineage_ruby-ap1a-userdebug \
-    lineage_ruby-ap1a-eng
+    infinity_ruby-user \
+    infinity_ruby-userdebug \
+    infinity_ruby-eng

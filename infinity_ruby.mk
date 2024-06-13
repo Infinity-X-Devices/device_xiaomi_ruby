@@ -11,13 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/ruby/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common İnfinity-X stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 TARGET_SCREEN_DENSITY := 440
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_ruby
+PRODUCT_NAME := infinity_ruby
 PRODUCT_DEVICE := ruby
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
@@ -29,3 +29,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="ruby-user 14 UP1A.230620.001 V816.0.3.0.UMOMIXM release-keys"
 
 BUILD_FINGERPRINT := Redmi/ruby_global/ruby:14/UP1A.230620.001/V816.0.3.0.UMOMIXM:user/release-keys
+
+#İnfinity-X Stuff
+INFINITY_BUILD_TYPE := OFFICIAL
+INFINITY_MAINTAINER := TravisExE
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
+TARGET_BUILD_VIMUSIC := true
