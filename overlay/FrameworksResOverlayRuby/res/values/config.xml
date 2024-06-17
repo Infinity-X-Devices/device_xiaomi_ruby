@@ -473,6 +473,9 @@
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
+    
+    <!-- Whether device has turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">true</bool>
 
     <!-- Whether this device is supporting the camera toggle -->
     <bool name="config_supportsCamToggle">true</bool>
